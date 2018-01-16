@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ac0fcf8-49e2-4ae2-be18-8a5441827804" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_servlet_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_guice_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/mapreduce-demo/mapreduce-demo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/mapreduce-demo/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/mapreduce-demo/src/main/java/com/blue/hadoop/mr/WordCountDriver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/mapreduce-demo/src/main/java/com/blue/hadoop/mr/WordCountMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/mapreduce-demo/src/main/java/com/blue/hadoop/mr/WordCountReduce.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/mapreduce.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/hdfs/hdfs-demo/target/" />
@@ -560,7 +546,7 @@
       <workItem from="1515548094541" duration="6958000" />
       <workItem from="1515558566272" duration="1213000" />
       <workItem from="1515747142644" duration="3771000" />
-      <workItem from="1516073521734" duration="10167000" />
+      <workItem from="1516073521734" duration="10216000" />
     </task>
     <task id="LOCAL-00001" summary="更新hadoop-hdfs-hdfs-demo的文件上传和下载demo">
       <created>1515559738054</created>
@@ -576,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515750889328</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新增mapreduce的wordcount实现demo">
+      <created>1516085608124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516085608124</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -612,7 +605,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22109000" />
+    <option name="totallyTimeSpent" value="22158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -658,7 +651,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="更新hadoop-hdfs-hdfs-demo的文件上传和下载demo" />
     <MESSAGE value="新增hdfs流上传和下载" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增hdfs流上传和下载" />
+    <MESSAGE value="新增mapreduce的wordcount实现demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增mapreduce的wordcount实现demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

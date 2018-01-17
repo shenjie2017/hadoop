@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ac0fcf8-49e2-4ae2-be18-8a5441827804" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/flow-count/src/main/resources/input-data/flow-record-1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/flow_count_province_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/flow-count-province/flow-count-province.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/flow-count-province/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/FlowBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/FlowCount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/ProvincePartitioner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/flow-count-province/src/main/resources/input-data/flow-record-1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mapreduce/flow-count/pom.xml" afterPath="$PROJECT_DIR$/mapreduce/flow-count/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mapreduce/mapreduce-demo/pom.xml" afterPath="$PROJECT_DIR$/mapreduce/mapreduce-demo/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/hdfs/hdfs-demo/target/" />
     <ignored path="$PROJECT_DIR$/mapreduce/mapreduce-demo/target/" />
     <ignored path="$PROJECT_DIR$/mapreduce/flow-count/target/" />
+    <ignored path="$PROJECT_DIR$/mapreduce/flow-count-province/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,23 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mapreduce/mapreduce-demo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="47" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="39" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="722">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,7 +45,7 @@
       <file leaf-file-name="FlowCount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/src/main/java/com/blue/hadoop/mr/FlowCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1634">
+            <state relative-caret-position="1116">
               <caret line="97" column="35" lean-forward="false" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,24 +54,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HDFSStreamTestCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSStreamTestCase.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapreduce/flow-count-province/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="722">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlowBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/FlowBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlowCount.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/FlowCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProvincePartitioner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/ProvincePartitioner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="755">
+              <caret line="45" column="55" lean-forward="false" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#771#788#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flow-record-1.dat" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/src/main/resources/input-data/flow-record-1.dat">
+      <file leaf-file-name="flow-record-1.dat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapreduce/flow-count-province/src/main/resources/input-data/flow-record-1.dat">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HDFSStreamTestCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSStreamTestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,42 +155,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordCountMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mapreduce/mapreduce-demo/src/main/java/com/blue/hadoop/mr/WordCountMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordCountReduce.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mapreduce/mapreduce-demo/src/main/java/com/blue/hadoop/mr/WordCountReduce.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordCountDriver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mapreduce/mapreduce-demo/src/main/java/com/blue/hadoop/mr/WordCountDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1273">
-              <caret line="75" column="29" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="75" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -177,11 +186,15 @@
         <option value="$PROJECT_DIR$/mapreduce/mapreduce-demo/src/main/java/com/blue/hadoop/mr/WordCountMapper.java" />
         <option value="$PROJECT_DIR$/mapreduce/mapreduce-demo/src/main/java/com/blue/hadoop/mr/WordCountDriver.java" />
         <option value="$PROJECT_DIR$/mapreduce/mapreduce-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/mapreduce/flow-count/pom.xml" />
         <option value="$PROJECT_DIR$/mapreduce/flow-count/src/main/java/com/blue/hadoop/mr/FlowBean.java" />
         <option value="$PROJECT_DIR$/mapreduce/flow-count/src/main/java/com/blue/hadoop/mr/FlowCount.java" />
         <option value="$PROJECT_DIR$/hdfs/hdfs-demo/pom.xml" />
         <option value="$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSStreamTestCase.java" />
+        <option value="$PROJECT_DIR$/mapreduce/flow-count/pom.xml" />
+        <option value="$PROJECT_DIR$/mapreduce/flow-count-province/pom.xml" />
+        <option value="$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/mr/FlowCount.java" />
+        <option value="$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/FlowCount.java" />
+        <option value="$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/ProvincePartitioner.java" />
       </list>
     </option>
   </component>
@@ -194,7 +207,6 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="alwaysUpdateSnapshots" value="true" />
         <option name="localRepository" value="D:\lib\maven\repository" />
         <option name="mavenHome" value="D:/develop/apache-maven-3.5.2" />
         <option name="userSettingsFile" value="D:\develop\apache-maven-3.5.2\conf\settings.xml" />
@@ -300,13 +312,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
               <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
@@ -367,6 +383,65 @@
             <path>
               <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
               <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count-province" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count-province" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count-province" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count-province" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count-province" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count-province" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count-province" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="input-data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count-province" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
               <item name="mapreduce-demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -374,8 +449,9 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,6 +467,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\hadoop\mapreduce\flow-count-province\src\main\resources" />
+      <recent name="D:\code\hadoop\mapreduce\flow-count-province\src\main\java" />
       <recent name="D:\code\hadoop\mapreduce\flow-count\src\main\resources\input-data" />
       <recent name="D:\code\hadoop\mapreduce\flow-count\src\main\resources" />
       <recent name="D:\code\hadoop\mapreduce\mapreduce-demo\src\main\resources\input-data" />
@@ -647,7 +725,9 @@
       <workItem from="1515747142644" duration="3771000" />
       <workItem from="1516073521734" duration="10333000" />
       <workItem from="1516157111678" duration="2610000" />
-      <workItem from="1516159798051" duration="1259000" />
+      <workItem from="1516159798051" duration="1307000" />
+      <workItem from="1516162070260" duration="28000" />
+      <workItem from="1516180449227" duration="2684000" />
     </task>
     <task id="LOCAL-00001" summary="更新hadoop-hdfs-hdfs-demo的文件上传和下载demo">
       <created>1515559738054</created>
@@ -684,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516161596872</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加流量统计(flow-count)的模拟数据">
+      <created>1516161893511</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1516161893511</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -720,7 +807,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26144000" />
+    <option name="totallyTimeSpent" value="28904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -734,25 +821,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991323" sideWeight="0.52558637" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26279318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26812366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991323" sideWeight="0.47441363" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -768,80 +855,20 @@
     <MESSAGE value="新增hdfs流上传和下载" />
     <MESSAGE value="新增mapreduce的wordcount实现demo" />
     <MESSAGE value="新增mapreduce的流量统计(flow-count)实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增mapreduce的流量统计(flow-count)实现" />
+    <MESSAGE value="添加流量统计(flow-count)的模拟数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加流量统计(flow-count)的模拟数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mapreduce/mapreduce-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="47" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="39" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/src/main/java/com/blue/hadoop/mr/FlowCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1843">
-          <caret line="97" column="35" lean-forward="false" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/src/main/java/com/blue/hadoop/mr/FlowBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1766#1767#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
-            <element signature="e#1912#1913#0" expanded="true" />
-            <element signature="e#1944#1945#0" expanded="true" />
-            <element signature="e#1974#1975#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mapreduce/mapreduce-demo/src/main/java/com/blue/hadoop/mr/WordCountMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -851,7 +878,7 @@
         <state relative-caret-position="475">
           <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -861,7 +888,7 @@
         <state relative-caret-position="1273">
           <caret line="75" column="29" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="75" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -892,7 +919,7 @@
         <state relative-caret-position="779">
           <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -902,7 +929,7 @@
         <state relative-caret-position="475">
           <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -940,7 +967,7 @@
         <state relative-caret-position="760">
           <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1108,7 +1135,7 @@
         <state relative-caret-position="475">
           <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1118,7 +1145,7 @@
         <state relative-caret-position="684">
           <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1150,17 +1177,7 @@
         <state relative-caret-position="1273">
           <caret line="75" column="29" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="75" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/src/main/java/com/blue/hadoop/mr/FlowCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="97" column="35" lean-forward="false" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1169,17 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="28" column="47" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="39" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1216,20 +1222,87 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/src/main/resources/input-data/flow-record-1.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSStreamTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="399">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/src/main/resources/input-data/flow-record-1.dat">
+    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/src/main/java/com/blue/hadoop/mr/FlowCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="97" column="35" lean-forward="false" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count-province/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/FlowBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count-province/src/main/resources/input-data/flow-record-1.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/ProvincePartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="45" column="55" lean-forward="false" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#771#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/FlowCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1240,7 +1313,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>flow-count:jar</last-edited>
+          <last-edited>flow-count-province:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

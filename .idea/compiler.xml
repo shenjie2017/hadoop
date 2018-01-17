@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flow-count" />
+        <module name="flow-count-province" />
         <module name="hdfs-demo" />
         <module name="mapreduce-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="flow-count" target="1.5" />
+      <module name="flow-count-province" target="1.5" />
       <module name="hdfs-demo" target="1.5" />
       <module name="mapreduce-demo" target="1.5" />
     </bytecodeTargetLevel>

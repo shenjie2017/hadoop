@@ -17,6 +17,7 @@
       <list>
         <option value="$PROJECT_DIR$/hdfs/hdfs-demo/pom.xml" />
         <option value="$PROJECT_DIR$/mapreduce/mapreduce-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mapreduce/flow-count/pom.xml" />
       </list>
     </option>
   </component>

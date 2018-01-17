@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/mapreduce/flow-count/flow-count.iml" filepath="$PROJECT_DIR$/mapreduce/flow-count/flow-count.iml" />
       <module fileurl="file://$PROJECT_DIR$/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/hdfs/hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/hdfs/hdfs-demo/hdfs-demo.iml" filepath="$PROJECT_DIR$/hdfs/hdfs-demo/hdfs-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapreduce/mapreduce.iml" filepath="$PROJECT_DIR$/mapreduce/mapreduce.iml" />

@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ac0fcf8-49e2-4ae2-be18-8a5441827804" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/flow_count_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/flow-count/flow-count.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/flow-count/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/flow-count/src/main/java/com/blue/hadoop/mr/FlowBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/flow-count/src/main/java/com/blue/hadoop/mr/FlowCount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapreduce/flow-count/src/main/resources/input-data/flow-record-1.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hdfs/hdfs-demo/hdfs-demo.iml" afterPath="$PROJECT_DIR$/hdfs/hdfs-demo/hdfs-demo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hdfs/hdfs-demo/pom.xml" afterPath="$PROJECT_DIR$/hdfs/hdfs-demo/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSStreamTestCase.java" afterPath="$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSStreamTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mapreduce/mapreduce-demo/pom.xml" afterPath="$PROJECT_DIR$/mapreduce/mapreduce-demo/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/hdfs/hdfs-demo/target/" />
     <ignored path="$PROJECT_DIR$/mapreduce/mapreduce-demo/target/" />
@@ -66,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HDFSStreamTestCase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HDFSStreamTestCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSStreamTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
@@ -74,6 +63,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flow-record-1.dat" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/src/main/resources/input-data/flow-record-1.dat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -307,12 +306,63 @@
           <expand>
             <path>
               <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
               <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
               <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
               <item name="flow-count" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="flow-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="input-data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
@@ -338,6 +388,13 @@
     <property name="project.structure.side.proportion" value="0.1958042" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="SearchEverywhereHistoryKey" value="s&#9;FILE&#9;jar://D:/develop/Java/jdk1.8.0_121/jre/lib/resources.jar!/com/sun/xml/internal/ws/resources/sender.properties" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\hadoop\mapreduce\flow-count\src\main\resources\input-data" />
+      <recent name="D:\code\hadoop\mapreduce\flow-count\src\main\resources" />
+      <recent name="D:\code\hadoop\mapreduce\mapreduce-demo\src\main\resources\input-data" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -590,7 +647,7 @@
       <workItem from="1515747142644" duration="3771000" />
       <workItem from="1516073521734" duration="10333000" />
       <workItem from="1516157111678" duration="2610000" />
-      <workItem from="1516159798051" duration="951000" />
+      <workItem from="1516159798051" duration="1259000" />
     </task>
     <task id="LOCAL-00001" summary="更新hadoop-hdfs-hdfs-demo的文件上传和下载demo">
       <created>1515559738054</created>
@@ -620,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516085623965</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增mapreduce的流量统计(flow-count)实现">
+      <created>1516161596872</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1516161596872</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -656,7 +720,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25836000" />
+    <option name="totallyTimeSpent" value="26144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -703,7 +767,8 @@
     <MESSAGE value="更新hadoop-hdfs-hdfs-demo的文件上传和下载demo" />
     <MESSAGE value="新增hdfs流上传和下载" />
     <MESSAGE value="新增mapreduce的wordcount实现demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增mapreduce的wordcount实现demo" />
+    <MESSAGE value="新增mapreduce的流量统计(flow-count)实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增mapreduce的流量统计(flow-count)实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1158,6 +1223,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/flow-count/src/main/resources/input-data/flow-record-1.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

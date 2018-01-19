@@ -53,13 +53,11 @@ public class FlowBean implements Writable {
         this.sumFlow = upFlow + dFlow;
     }
 
-    @Override
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeLong(upFlow);
         dataOutput.writeLong(dFlow);
     }
 
-    @Override
     public void readFields(DataInput dataInput) throws IOException {
         upFlow = dataInput.readLong();
         dFlow = dataInput.readLong();

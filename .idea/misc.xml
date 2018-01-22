@@ -19,6 +19,9 @@
         <option value="$PROJECT_DIR$/mapreduce/mapreduce-demo/pom.xml" />
         <option value="$PROJECT_DIR$/mapreduce/flow-count/pom.xml" />
         <option value="$PROJECT_DIR$/mapreduce/flow-count-province/pom.xml" />
+        <option value="$PROJECT_DIR$/mapreduce/order-merge/pom.xml" />
+        <option value="$PROJECT_DIR$/mapreduce/MapSideJoin/pom.xml" />
+        <option value="$PROJECT_DIR$/mapreduce/local-run/pom.xml" />
       </list>
     </option>
   </component>

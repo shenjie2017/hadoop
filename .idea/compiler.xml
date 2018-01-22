@@ -9,14 +9,20 @@
         <module name="flow-count" />
         <module name="flow-count-province" />
         <module name="hdfs-demo" />
+        <module name="local-run" />
         <module name="mapreduce-demo" />
+        <module name="MapSideJoin" />
+        <module name="order-merge" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="flow-count" target="1.5" />
       <module name="flow-count-province" target="1.5" />
       <module name="hdfs-demo" target="1.5" />
+      <module name="local-run" target="1.5" />
       <module name="mapreduce-demo" target="1.5" />
+      <module name="MapSideJoin" target="1.5" />
+      <module name="order-merge" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -64,11 +64,10 @@ public class LocalRunDriver {
 
 
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
+        //hdfs上传文件需要配置HADOOP_USER_NAME
+//        System.setProperty("HADOOP_USER_NAME", "hadoop");
         Configuration conf = new Configuration();
-//        conf.set("mapreduce.map.memory.mb","2048");
-//        conf.set("mapreduce.reduce.memory.mb","2048");
-//        conf.set("mapreduce.map.java.opts","-Xmx2048m");
-//        conf.set("mapreduce.reduce.java.opts","-Xmx2048m");
+
         //构造yarn的任务
         Job job = Job.getInstance(conf);
 
@@ -89,8 +88,6 @@ public class LocalRunDriver {
         FileInputFormat.setInputPaths(job,new Path(args[0]));
         FileOutputFormat.setOutputPath(job,new Path(args[1]));
 
-        //提交yarn任务
-//        job.submit();
         //等待yarn的任务执行完成
         boolean res = job.waitForCompletion(true);
         //根据程序的执行状态返回一个当前程序的执行状态

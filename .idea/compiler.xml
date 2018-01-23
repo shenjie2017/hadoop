@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common-friends" />
         <module name="flow-count" />
         <module name="flow-count-province" />
         <module name="hdfs-demo" />
@@ -17,6 +18,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common-friends" target="1.5" />
       <module name="flow-count" target="1.5" />
       <module name="flow-count-province" target="1.5" />
       <module name="hdfs-demo" target="1.5" />

@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/mapreduce/order-merge/pom.xml" />
         <option value="$PROJECT_DIR$/mapreduce/MapSideJoin/pom.xml" />
         <option value="$PROJECT_DIR$/mapreduce/local-run/pom.xml" />
+        <option value="$PROJECT_DIR$/mapreduce/shared-friends/pom.xml" />
       </list>
     </option>
   </component>

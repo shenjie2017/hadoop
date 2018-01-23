@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/mapreduce/mapreduce.iml" filepath="$PROJECT_DIR$/mapreduce/mapreduce.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapreduce/mapreduce-demo/mapreduce-demo.iml" filepath="$PROJECT_DIR$/mapreduce/mapreduce-demo/mapreduce-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapreduce/order-merge/order-merge.iml" filepath="$PROJECT_DIR$/mapreduce/order-merge/order-merge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapreduce/shared-friends/shared-friends.iml" filepath="$PROJECT_DIR$/mapreduce/shared-friends/shared-friends.iml" />
     </modules>
   </component>
 </project>

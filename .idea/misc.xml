@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/mapreduce/local-run/pom.xml" />
         <option value="$PROJECT_DIR$/mapreduce/shared-friends/pom.xml" />
         <option value="$PROJECT_DIR$/mapreduce/common-friends/pom.xml" />
+        <option value="$PROJECT_DIR$/mapreduce/log-enhance/pom.xml" />
       </list>
     </option>
   </component>

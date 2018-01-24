@@ -50,9 +50,6 @@ public class FansDriver {
 
             for(String fan:fans){
                 context.write(new Text(buildKey(person,fan)),new Text(person));
-                if("A-O".equals(buildKey(person,fan))){
-                    System.out.println(person);
-                }
             }
         }
 

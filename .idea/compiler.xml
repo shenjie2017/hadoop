@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common-friends" />
+        <module name="count-word" />
         <module name="flow-count" />
         <module name="flow-count-province" />
         <module name="hdfs-demo" />
@@ -20,8 +21,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common-friends" target="1.5" />
+      <module name="count-word" target="1.5" />
       <module name="flow-count" target="1.5" />
       <module name="flow-count-province" target="1.5" />
+      <module name="hbase" target="1.5" />
       <module name="hdfs-demo" target="1.5" />
       <module name="local-run" target="1.5" />
       <module name="log-enhance" target="1.5" />

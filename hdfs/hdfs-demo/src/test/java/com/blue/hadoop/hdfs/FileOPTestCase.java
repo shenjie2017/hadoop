@@ -1,16 +1,13 @@
 package com.blue.hadoop.hdfs;
 
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FileStatus;
-import org.apache.hadoop.fs.FileSystem;
-import org.apache.hadoop.fs.LocalFileSystem;
-import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.fs.*;
 import org.apache.hadoop.hdfs.DistributedFileSystem;
+import org.apache.hadoop.io.IOUtils;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.IOException;
-import java.io.PrintStream;
+import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
 
@@ -24,7 +21,9 @@ public class FileOPTestCase {
         try {
             conf = new Configuration();
             //本地文件系统
-            fs = LocalFileSystem.get(new URI("file:///"),conf);
+//            fs = LocalFileSystem.get(new URI("file:///"),conf);
+
+            fs = DistributedFileSystem.get(new URI("hdfs://node1:8020"),conf);
 
             //hadoop分布式文件系统
 //            fs = DistributedFileSystem.get(new URI("hdfs://node1.big.blue.com:8020"),conf);
@@ -79,6 +78,20 @@ public class FileOPTestCase {
             e.printStackTrace();
         }
     }
+
+    @Test
+    public void testDownloadFile(){
+        try {
+            FSDataInputStream fin = fs.open(new Path("/data/in/test/cloudera-scm-agent.log"));
+            FileOutputStream fout = new FileOutputStream("d:/tmp/hdfs/cloudera-scm-agent.log");
+            IOUtils.copyBytes(fin,out,4096);
+            IOUtils.copyBytes(fin,fout,4096);
+            out.println("download success!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     /**
      * 打印泛型数组

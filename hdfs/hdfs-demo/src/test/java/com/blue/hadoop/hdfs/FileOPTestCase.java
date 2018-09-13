@@ -24,7 +24,7 @@ public class FileOPTestCase {
 //            fs = LocalFileSystem.get(new URI("file:///"),conf);
 
             fs = DistributedFileSystem.get(new URI("hdfs://node1:8020"),conf);
-
+//            fs = DistributedFileSystem.get(new URI("hdfs://local-node1:8020"),conf);
             //hadoop分布式文件系统
 //            fs = DistributedFileSystem.get(new URI("hdfs://node1.big.blue.com:8020"),conf);
 //            fs = FileSystem.get(new URI("hdfs://node1.big.blue.com:8020"),conf);
@@ -83,8 +83,10 @@ public class FileOPTestCase {
     public void testDownloadFile(){
         try {
             FSDataInputStream fin = fs.open(new Path("/data/in/test/cloudera-scm-agent.log"));
-            FileOutputStream fout = new FileOutputStream("d:/tmp/hdfs/cloudera-scm-agent.log");
+//            FSDataInputStream fin = fs.open(new Path("/data/in/README.txt"));
+            FileOutputStream fout = new FileOutputStream("d:/tmp/hdfs/tmp.log");
             IOUtils.copyBytes(fin,out,4096);
+            fin.seek(0);
             IOUtils.copyBytes(fin,fout,4096);
             out.println("download success!");
         } catch (IOException e) {

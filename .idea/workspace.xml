@@ -1,43 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ac0fcf8-49e2-4ae2-be18-8a5441827804" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/FileOPTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_findbugs_findbugs_annotations_1_3_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_8_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_annotations_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_client_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_tests_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop2_compat_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop_compat_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_metrics_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_metrics_api_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_prefix_tree_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_procedure_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_protocol_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_server_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_htrace_htrace_core_3_1_0_incubating.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jamon_jamon_runtime_2_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jcodings_jcodings_1_0_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_joni_joni_2_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_sslengine_6_1_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jsp_2_1_6_1_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jsp_api_2_1_6_1_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_compiler_5_5_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_runtime_5_5_23.xml" beforeDir="false" />
+    <list default="true" id="0ac0fcf8-49e2-4ae2-be18-8a5441827804" name="Default" comment="增加hdfs-local的win版本删除和文件状态查看">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_cedarsoftware_java_util_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_cedarsoftware_json_io_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codahale_metrics_metrics_core_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_findbugs_findbugs_annotations_1_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_6_2_1_jre7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_java7_2_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_ruedigermoeller_fst_2_50.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jcache_1_0_spec_1_0_alpha_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_test_jar_tests_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_test_jar_tests_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_hs_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_test_jar_tests_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_minicluster_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_registry_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_applicationhistoryservice_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_nodemanager_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_resourcemanager_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_tests_test_jar_tests_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_timelineservice_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_web_proxy_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_annotations_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_client_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_tests_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop2_compat_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop_compat_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_metrics_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_metrics_api_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_prefix_tree_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_procedure_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_protocol_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_server_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_htrace_htrace_core_3_1_0_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_mrunit_mrunit_hadoop2_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ehcache_ehcache_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jamon_jamon_runtime_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jcodings_jcodings_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_joni_joni_2_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_sslengine_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jsp_2_1_6_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jsp_api_2_1_6_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_mockito_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_support_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_core_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_common_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_reflect_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_compiler_5_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_runtime_5_5_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hbase/count-word/count-word.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hbase/count-word/count-word.iml" afterDir="false" />
     </list>
@@ -53,6 +91,7 @@
     <ignored path="$PROJECT_DIR$/mapreduce/log-enhance/target/" />
     <ignored path="$PROJECT_DIR$/hbase/target/" />
     <ignored path="$PROJECT_DIR$/hbase/count-word/target/" />
+    <ignored path="$PROJECT_DIR$/mapreduce/practice/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,41 +102,60 @@
     <session id="599145553">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="5" />
-          <entry key="java" value="21" />
+          <entry key="class" value="19" />
+          <entry key="gitattributes" value="1" />
+          <entry key="gitignore" value="3" />
+          <entry key="java" value="42" />
+          <entry key="pom" value="4" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="21" />
+          <entry key="CLASS" value="19" />
+          <entry key="JAVA" value="42" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1160" />
+          <entry key="dummy" value="1" />
+          <entry key="gitignore" value="10" />
+          <entry key="java" value="3008" />
+          <entry key="txt" value="116" />
+          <entry key="xml" value="358" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1160" />
+          <entry key="JAVA" value="3008" />
+          <entry key="PLAIN_TEXT" value="127" />
+          <entry key="XML" value="358" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/FileOPTestCase.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapreduce/practice/src/main/java/com/blue/hadoop/mr/reducer/MaxTemperatureReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+            <state relative-caret-position="304">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,19 +164,97 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/develop/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
+        <entry file="file://$PROJECT_DIR$/mapreduce/practice/src/main/java/com/blue/hadoop/mr/driver/MaxTemperatureDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+            <state relative-caret-position="304">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mapreduce/practice/src/test/java/com/blue/hadoop/mr/TestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/develop/Java/jdk1.8.0_181/src.zip!/java/lang/System.java">
+        <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="109" column="35" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="35" />
+            <state relative-caret-position="76">
+              <caret line="48" column="65" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/FileOPTestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="85" column="79" lean-forward="true" selection-start-line="85" selection-start-column="79" selection-end-line="85" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSStreamTestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapreduce/local-run/src/main/java/com/blue/hadoop/mr/LocalRunDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapreduce/practice/src/test/java/com/blue/hadoop/mr/mapper/MaxTemperatureMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mrunit/mrunit/1.1.0/mrunit-1.1.0-sources.jar!/org/apache/hadoop/mrunit/mapreduce/MapDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="87" column="58" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mrunit/mrunit/1.1.0/mrunit-1.1.0-sources.jar!/org/apache/hadoop/mrunit/MapDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1083">
+              <caret line="96" column="35" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -143,6 +279,7 @@
       <find>commandLine</find>
       <find>Configuration</find>
       <find>LogFileOutputFormat</find>
+      <find>getClass</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,14 +288,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mapreduce/flow-count/pom.xml" />
-        <option value="$PROJECT_DIR$/mapreduce/flow-count-province/pom.xml" />
-        <option value="$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/mr/FlowCount.java" />
-        <option value="$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/FlowCount.java" />
-        <option value="$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/ProvincePartitioner.java" />
-        <option value="$PROJECT_DIR$/mapreduce/order-merge/pom.xml" />
-        <option value="$PROJECT_DIR$/mapreduce/order-merge/src/main/resources/input/order-mobile.dat" />
-        <option value="$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/3.0.0/hadoop-common-3.0.0.jar!/org/apache/hadoop/io/Writable.class" />
         <option value="$PROJECT_DIR$/mapreduce/flow-count-province/src/main/java/com/blue/hadoop/mr/FlowBean.java" />
         <option value="$PROJECT_DIR$/mapreduce/order-merge/src/main/java/com/blue/hadoop/mr/OrderBean.java" />
         <option value="$PROJECT_DIR$/mapreduce/order-merge/src/main/java/com/blue/hadoop/mr/OrderMergeDriver.java" />
@@ -202,6 +331,14 @@
         <option value="$PROJECT_DIR$/hbase/count-word/src/main/java/com/blue/hadoop/hbase/CountWord.java" />
         <option value="$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSStreamTestCase.java" />
         <option value="$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/FileOPTestCase.java" />
+        <option value="$PROJECT_DIR$/mapreduce/practice/pom.xml" />
+        <option value="$PROJECT_DIR$/mapreduce/practice/src/main/java/com/blue/hadoop/mr/mapper/MaxTemperatureMapper.java" />
+        <option value="$PROJECT_DIR$/mapreduce/practice/src/test/java/com/blue/hadoop/mr/mapper/MaxTemperatureMapperTest.java" />
+        <option value="$PROJECT_DIR$/mapreduce/practice/src/main/java/com/blue/hadoop/mr/reducer/MaxTemperatureReducer.java" />
+        <option value="$PROJECT_DIR$/mapreduce/practice/src/main/java/com/blue/hadoop/mr/driver/MaxtemperatureDriver.java" />
+        <option value="$PROJECT_DIR$/mapreduce/practice/.gitignore" />
+        <option value="$PROJECT_DIR$/mapreduce/practice/src/test/java/com/blue/hadoop/mr/TestCase.java" />
+        <option value="$PROJECT_DIR$/mapreduce/practice/src/main/java/com/blue/hadoop/mr/driver/MaxTemperatureDriver.java" />
       </list>
     </option>
   </component>
@@ -225,8 +362,25 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="practice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="practice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1196" />
+    <option name="y" value="62" />
     <option name="width" value="1400" />
     <option name="height" value="980" />
   </component>
@@ -234,9 +388,7 @@
     <entry key="Project Default">
       <profile-state>
         <expanded-state>
-          <State>
-            <id />
-          </State>
+          <State />
           <State>
             <id>Abstraction issuesJava</id>
           </State>
@@ -247,31 +399,19 @@
             <id>Android</id>
           </State>
           <State>
-            <id>Android &gt; Lint &gt; Correctness</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Internationalization</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Performance</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
-          </State>
-          <State>
-            <id>Android Lint for Kotlin</id>
-          </State>
-          <State>
             <id>GeneralJavaScript</id>
           </State>
           <State>
-            <id>Google Web Toolkit issues</id>
+            <id>IconsUsabilityLintAndroid</id>
           </State>
           <State>
-            <id>Internationalization issues</id>
+            <id>Internationalization</id>
           </State>
           <State>
-            <id>Internationalization issuesJava</id>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
           </State>
           <State>
             <id>Java</id>
@@ -283,16 +423,16 @@
             <id>JavaScript</id>
           </State>
           <State>
-            <id>Security issuesJava</id>
+            <id>LintAndroid</id>
           </State>
           <State>
             <id>Serialization issuesJava</id>
           </State>
           <State>
-            <id>WSDL issues</id>
+            <id>UsabilityLintAndroid</id>
           </State>
           <State>
-            <id>WebSocket issues</id>
+            <id>WebSocket</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -313,6 +453,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,32 +496,137 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hdfs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learning-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="reducer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="HashMa&#9;PSI&#9;JAVA://java.util.HashMap&#10;s&#9;FILE&#9;jar://D:/develop/Java/jdk1.8.0_121/jre/lib/resources.jar!/com/sun/xml/internal/ws/resources/sender.properties" />
+    <property name="SearchEverywhereHistoryKey" value="Object&#9;PSI&#9;JAVA://java.lang.Object&#10;HashMa&#9;PSI&#9;JAVA://java.util.HashMap&#10;s&#9;FILE&#9;jar://D:/develop/Java/jdk1.8.0_121/jre/lib/resources.jar!/com/sun/xml/internal/ws/resources/sender.properties" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536741614810" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537436379930" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1958042" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\learning-hadoop\mapreduce\practice" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\learning-hadoop\mapreduce\local-run" />
       <recent name="D:\code\hadoop\mapreduce\log-enhance\src\main\resources" />
       <recent name="D:\code\hadoop\mapreduce\common-friends\src\main\resources" />
       <recent name="D:\code\hadoop\mapreduce\shared-friends\src\main\resources" />
       <recent name="D:\code\hadoop\mapreduce\local-run\src\main\resources\input" />
-      <recent name="D:\code\hadoop\mapreduce\local-run\src\main\java\com\blue\hadoop\mr" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -395,23 +641,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FileOPTestCase.testFileStatus">
+  <component name="RunManager" selected="JUnit.TestCase.testRunMR">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.blue.hadoop.hbase.CountWord" />
-      <module name="count-word" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.blue.hadoop.hbase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MaxTemperatureDriver" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.blue.hadoop.mr.driver.MaxTemperatureDriver" />
+      <module name="practice" />
+      <option name="PROGRAM_PARAMETERS" value="D:\tmp\hdfs\test\in\temperature\cd_temperature.dat D:\tmp\hdfs\test\out\temperature" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -431,21 +671,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOPTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hdfs-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.blue.hadoop.hdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.blue.hadoop.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.blue.hadoop.hdfs.FileOPTestCase" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FileOPTestCase.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hdfs-demo" />
       <extension name="coverage">
@@ -457,6 +682,23 @@
       <option name="PACKAGE_NAME" value="com.blue.hadoop.hdfs" />
       <option name="MAIN_CLASS_NAME" value="com.blue.hadoop.hdfs.FileOPTestCase" />
       <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileOPTestCase.testDownloadFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdfs-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.blue.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.blue.hadoop.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.blue.hadoop.hdfs.FileOPTestCase" />
+      <option name="METHOD_NAME" value="testDownloadFile" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -480,17 +722,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOPTestCase.testGlobalStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hdfs-demo" />
+    <configuration name="MaxTemperatureMapperTest.processValidRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.blue.hadoop.hdfs.*" />
+          <option name="PATTERN" value="com.blue.hadoop.mr.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.blue.hadoop.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.blue.hadoop.hdfs.FileOPTestCase" />
-      <option name="METHOD_NAME" value="testGlobalStatus" />
+      <option name="PACKAGE_NAME" value="com.blue.hadoop.mr.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.blue.hadoop.mr.mapper.MaxTemperatureMapperTest" />
+      <option name="METHOD_NAME" value="processValidRecord" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase.testRunMR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.blue.hadoop.mr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.blue.hadoop.mr" />
+      <option name="MAIN_CLASS_NAME" value="com.blue.hadoop.mr.TestCase" />
+      <option name="METHOD_NAME" value="testRunMR" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -521,20 +780,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MaxTemperatureDriver" />
       <item itemvalue="Application.log-enhance" />
-      <item itemvalue="Application.CountWord" />
       <item itemvalue="JUnit.FileOPTestCase.testFileStatus" />
-      <item itemvalue="JUnit.FileOPTestCase" />
-      <item itemvalue="JUnit.FileOPTestCase.testGlobalStatus" />
       <item itemvalue="JUnit.FileOPTestCase.testDelete" />
+      <item itemvalue="JUnit.FileOPTestCase.testDownloadFile" />
+      <item itemvalue="JUnit.MaxTemperatureMapperTest.processValidRecord" />
+      <item itemvalue="JUnit.TestCase.testRunMR" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCase.testRunMR" />
+        <item itemvalue="JUnit.MaxTemperatureMapperTest.processValidRecord" />
+        <item itemvalue="JUnit.FileOPTestCase.testDownloadFile" />
         <item itemvalue="JUnit.FileOPTestCase.testFileStatus" />
         <item itemvalue="JUnit.FileOPTestCase.testDelete" />
-        <item itemvalue="JUnit.FileOPTestCase.testGlobalStatus" />
-        <item itemvalue="JUnit.FileOPTestCase" />
-        <item itemvalue="Application.CountWord" />
       </list>
     </recent_temporary>
   </component>
@@ -566,7 +826,13 @@
       <workItem from="1516781434182" duration="4504000" />
       <workItem from="1525256881193" duration="678000" />
       <workItem from="1525336900196" duration="5059000" />
-      <workItem from="1536736339121" duration="5058000" />
+      <workItem from="1536736339121" duration="5713000" />
+      <workItem from="1536744067642" duration="1440000" />
+      <workItem from="1536803126574" duration="459000" />
+      <workItem from="1536813823057" duration="350000" />
+      <workItem from="1537423060470" duration="10221000" />
+      <workItem from="1537433615372" duration="2080000" />
+      <workItem from="1537863385897" duration="189000" />
     </task>
     <task id="LOCAL-00001" summary="更新hadoop-hdfs-hdfs-demo的文件上传和下载demo">
       <created>1515559738054</created>
@@ -673,68 +939,111 @@
       <option name="project" value="LOCAL" />
       <updated>1525341917267</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="增加hdfs-local的win版本删除和文件状态查看">
+      <created>1536741502871</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1536741502871</updated>
+    </task>
+    <task id="LOCAL-00017" summary="增加hdfs-local的win版本删除和文件状态查看">
+      <created>1536741669258</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1536741669258</updated>
+    </task>
+    <task id="LOCAL-00018" summary="增加hdfs-local的win版本的文件下载">
+      <created>1536745485538</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1536745485538</updated>
+    </task>
+    <task id="LOCAL-00019" summary="增加hdfs-local的win版本删除和文件状态查看">
+      <created>1536803588922</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1536803588922</updated>
+    </task>
+    <task id="LOCAL-00020" summary="1.增加mrunit测试mapreduce&#10;2.增加在历史气温数据中求出历年最高气温">
+      <created>1537430396181</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1537430396181</updated>
+    </task>
+    <task id="LOCAL-00021" summary="增加使用junit运行mr">
+      <created>1537434455331</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1537434455331</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FileOPTestCase_testDelete - 2018.09.12 at 16h 25m 45s.xml">
-      <configuration name="FileOPTestCase.testDelete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileOPTestCase_testDelete - 2018.09.12 at 16h 27m 27s.xml">
-      <configuration name="FileOPTestCase.testDelete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileOPTestCase_testDelete - 2018.09.12 at 16h 28m 47s.xml">
-      <configuration name="FileOPTestCase.testDelete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileOPTestCase_testDelete - 2018.09.12 at 16h 29m 04s.xml">
-      <configuration name="FileOPTestCase.testDelete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileOPTestCase_testDelete - 2018.09.12 at 16h 29m 37s.xml">
-      <configuration name="FileOPTestCase.testDelete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileOPTestCase_testDelete - 2018.09.12 at 16h 31m 05s.xml">
-      <configuration name="FileOPTestCase.testDelete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileOPTestCase_testFileStatus - 2018.09.12 at 16h 34m 50s.xml">
+    <history-entry file="FileOPTestCase_testFileStatus - 2018.09.12 at 16h 36m 55s.xml">
       <configuration name="FileOPTestCase.testFileStatus" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileOPTestCase_testFileStatus - 2018.09.12 at 16h 35m 09s.xml">
-      <configuration name="FileOPTestCase.testFileStatus" configurationId="JUnit" />
+    <history-entry file="FileOPTestCase_testDownloadFile - 2018.09.12 at 17h 28m 11s.xml">
+      <configuration name="FileOPTestCase.testDownloadFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileOPTestCase_testFileStatus - 2018.09.12 at 16h 35m 39s.xml">
-      <configuration name="FileOPTestCase.testFileStatus" configurationId="JUnit" />
+    <history-entry file="FileOPTestCase_testDownloadFile - 2018.09.12 at 17h 31m 53s.xml">
+      <configuration name="FileOPTestCase.testDownloadFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileOPTestCase_testFileStatus - 2018.09.12 at 16h 36m 01s.xml">
-      <configuration name="FileOPTestCase.testFileStatus" configurationId="JUnit" />
+    <history-entry file="FileOPTestCase_testDownloadFile - 2018.09.13 at 09h 49m 11s.xml">
+      <configuration name="FileOPTestCase.testDownloadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileOPTestCase_testDownloadFile - 2018.09.13 at 09h 50m 22s.xml">
+      <configuration name="FileOPTestCase.testDownloadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileOPTestCase_testDownloadFile - 2018.09.13 at 09h 51m 14s.xml">
+      <configuration name="FileOPTestCase.testDownloadFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxTemperatureMapperTest_processValidRecord - 2018.09.20 at 15h 06m 02s.xml">
+      <configuration name="MaxTemperatureMapperTest.processValidRecord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxTemperatureMapperTest_processValidRecord - 2018.09.20 at 15h 06m 14s.xml">
+      <configuration name="MaxTemperatureMapperTest.processValidRecord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxTemperatureMapperTest_processValidRecord - 2018.09.20 at 15h 06m 31s.xml">
+      <configuration name="MaxTemperatureMapperTest.processValidRecord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCase_testRunMR - 2018.09.20 at 16h 39m 52s.xml">
+      <configuration name="TestCase.testRunMR" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77292000" />
+    <option name="totallyTimeSpent" value="92686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28944564" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.47014925" visible="true" weight="0.3340564" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4696162" weight="0.3340564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5298507" side_tool="true" weight="0.3991323" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.53038377" side_tool="true" weight="0.3340564" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.47014925" weight="0.19739696" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SmartIM" order="13" weight="0.329718" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -743,11 +1052,37 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.15565032" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -755,6 +1090,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="更新hadoop-hdfs-hdfs-demo的文件上传和下载demo" />
     <MESSAGE value="新增hdfs流上传和下载" />
     <MESSAGE value="新增mapreduce的wordcount实现demo" />
@@ -769,86 +1105,13 @@
     <MESSAGE value="社交数据中查找互粉的粉丝" />
     <MESSAGE value="添加运行商流量日志分析程序，并将程序输出到自定义文件" />
     <MESSAGE value="从hbase读取数据，并利用mapreduce统计单词个数并回写到hbase新表" />
-    <option name="LAST_COMMIT_MESSAGE" value="从hbase读取数据，并利用mapreduce统计单词个数并回写到hbase新表" />
+    <MESSAGE value="增加hdfs-local的win版本的文件下载" />
+    <MESSAGE value="增加hdfs-local的win版本删除和文件状态查看" />
+    <MESSAGE value="1.增加mrunit测试mapreduce&#10;2.增加在历史气温数据中求出历年最高气温" />
+    <MESSAGE value="增加使用junit运行mr" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加使用junit运行mr" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar!/org/apache/commons/beanutils/expression/DefaultResolver.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar!/org/apache/commons/beanutils/BeanUtilsBean.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar!/org/apache/commons/beanutils/DefaultBeanIntrospector.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar!/org/apache/commons/beanutils/DefaultIntrospectionContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-configuration2/2.1.1/commons-configuration2-2.1.1.jar!/org/apache/commons/configuration2/beanutils/DefaultBeanFactory.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar!/org/apache/commons/beanutils/DefaultBeanIntrospector.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.0.0/hadoop-mapreduce-client-core-3.0.0.jar!/org/apache/hadoop/mapreduce/Cluster.class" />
-    <entry file="file://$PROJECT_DIR$/mapreduce/common-friends/src/main/resources/mapred-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-configuration2/2.1.1/commons-configuration2-2.1.1.jar!/org/apache/commons/configuration2/builder/BasicConfigurationBuilder.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-configuration2/2.1.1/commons-configuration2-2.1.1.jar!/org/apache/commons/configuration2/beanutils/BeanHelper.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar!/org/apache/commons/beanutils/PropertyUtilsBean.java" />
-    <entry file="jar://D:/develop/Java/jdk1.8.0_121/src.zip!/java/lang/reflect/Method.java" />
-    <entry file="jar://D:/develop/Java/jdk1.8.0_121/src.zip!/java/beans/FeatureDescriptor.java" />
-    <entry file="jar://D:/develop/Java/jdk1.8.0_121/src.zip!/java/beans/Introspector.java" />
-    <entry file="jar://D:/develop/Java/jdk1.8.0_121/src.zip!/java/beans/PropertyDescriptor.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.0.0/hadoop-mapreduce-client-core-3.0.0.jar!/org/apache/hadoop/mapreduce/Job.class" />
-    <entry file="file://$PROJECT_DIR$/mapreduce/common-friends/src/main/resources/core-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/common-friends/src/main/resources/hdfs-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/common-friends/src/main/resources/yarn-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/log-enhance/src/main/resources/core-site.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/common-friends/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="39" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/log-enhance/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/common-friends/src/main/java/com/blue/hadoop/mr/FansDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="103" column="29" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="103" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/log-enhance/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.0.0/hadoop-mapreduce-client-core-3.0.0.jar!/org/apache/hadoop/mapreduce/RecordWriter.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.0.0/hadoop-mapreduce-client-core-3.0.0.jar!/org/apache/hadoop/mapreduce/lib/output/FileOutputFormat.class" />
     <entry file="file://$PROJECT_DIR$/mapreduce/mapreduce.iml">
@@ -869,9 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="66" column="35" lean-forward="true" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -917,21 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/3.0.0/hadoop-common-3.0.0.jar!/org/apache/hadoop/fs/FileSystem.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-          <folding>
-            <element signature="e#37663#37664#0" expanded="true" />
-            <element signature="e#37742#37743#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,17 +1201,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSTestCase.java">
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="48" column="65" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="65" />
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSStreamTestCase.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        <state relative-caret-position="323">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -984,10 +1229,193 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.jar!/org/apache/commons/io/IOUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/3.0.0/hadoop-common-3.0.0.jar!/org/apache/hadoop/io/IOUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/local-run/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/3.0.0/hadoop-common-3.0.0.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-minicluster/3.0.0/hadoop-minicluster-3.0.0.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/mrunit/mrunit/1.1.0/mrunit-1.1.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mrunit/mrunit/1.1.0/mrunit-1.1.0-hadoop2.jar!/org/apache/hadoop/mrunit/MapDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="161" column="25" selection-start-line="161" selection-start-column="17" selection-end-line="161" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.0.0/hadoop-mapreduce-client-core-3.0.0.jar!/org/apache/hadoop/mapreduce/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.0.0/hadoop-mapreduce-client-core-3.0.0.jar!/org/apache/hadoop/mapreduce/Job.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="847" column="19" selection-start-line="847" selection-start-column="19" selection-end-line="847" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/BasicConfigurator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/practice/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/3.0.0/hadoop-common-3.0.0.jar!/org/apache/hadoop/util/ToolRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/3.0.0/hadoop-common-3.0.0.jar!/org/apache/hadoop/fs/FileSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="623" column="28" selection-start-line="623" selection-start-column="28" selection-end-line="623" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/practice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/practice/src/main/java/com/blue/hadoop/mr/mapper/MaxTemperatureMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/practice/src/main/java/com/blue/hadoop/mr/reducer/MaxTemperatureReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/practice/src/main/java/com/blue/hadoop/mr/driver/MaxTemperatureDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mrunit/mrunit/1.1.0/mrunit-1.1.0-sources.jar!/org/apache/hadoop/mrunit/mapreduce/MapDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="87" column="58" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mrunit/mrunit/1.1.0/mrunit-1.1.0-sources.jar!/org/apache/hadoop/mrunit/MapDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="96" column="35" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/local-run/src/main/java/com/blue/hadoop/mr/LocalRunDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/FileOPTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="361">
+          <caret line="85" column="79" lean-forward="true" selection-start-line="85" selection-start-column="79" selection-end-line="85" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSStreamTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hdfs/hdfs-demo/src/test/java/com/blue/hadoop/hdfs/HDFSTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="48" column="65" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/practice/src/test/java/com/blue/hadoop/mr/mapper/MaxTemperatureMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/practice/src/test/java/com/blue/hadoop/mr/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -16,6 +16,7 @@
         <module name="mapreduce-demo" />
         <module name="MapSideJoin" />
         <module name="order-merge" />
+        <module name="practice" />
         <module name="shared-friends" />
       </profile>
     </annotationProcessing>
@@ -31,6 +32,7 @@
       <module name="mapreduce-demo" target="1.5" />
       <module name="MapSideJoin" target="1.5" />
       <module name="order-merge" target="1.5" />
+      <module name="practice" target="1.8" />
       <module name="shared-friends" target="1.5" />
     </bytecodeTargetLevel>
   </component>

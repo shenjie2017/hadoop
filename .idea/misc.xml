@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/mapreduce/common-friends/pom.xml" />
         <option value="$PROJECT_DIR$/mapreduce/log-enhance/pom.xml" />
         <option value="$PROJECT_DIR$/hbase/count-word/pom.xml" />
+        <option value="$PROJECT_DIR$/mapreduce/practice/pom.xml" />
       </list>
     </option>
   </component>
